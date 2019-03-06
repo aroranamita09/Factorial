@@ -1,36 +1,19 @@
 package com.stackroute;
 
 public class Factorials {
-    static void intFactorial()
+    int intFactorial(int num)
     {
-        int i = 0;
-        int intVar = 1;
-        while(intVar > 0)
-        {
-            i++;
-            System.out.println("The factorial of " + (i-1) + " is : " + intVar);
-            intVar = intVar * i;
-        }
-        System.out.println("The factorial of " + i + " is out of range");
+
+//        your code here
     }
 
-    static void longFactorial()
+    long  longFactorial( long num)
     {
-        int i = 0;
-        long longVar = 1;
-        while(longVar > 0)
-        {
-            i++;
-            System.out.println("The factorial of " + (i-1) + " is : " + longVar);
-            longVar = longVar * i;
-        }
-        System.out.println("The factorial of " + i + " is out of range");
+        //your code here
     }
 
-    public static void main(String args[])
-    {
-        intFactorial();
-        System.out.println();
-        longFactorial();
-    }
+
 }
+
+
+

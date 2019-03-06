@@ -1,21 +1,22 @@
 package com.stackroute;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 
-import static org.junit.Assert.*;
+import org.junit.After;
+        import org.junit.Before;
+        import org.junit.Test;
+
+        import static org.junit.Assert.*;
 
 public class FactorialsTest {
     Factorials obj;
     @Before
     public void setUp() throws Exception {
-        Factorials obj = new Factorials();
+        obj = new Factorials();
     }
 
     @After
     public void tearDown() throws Exception {
-        Factorials obj;
+        obj=null;
     }
 
     @Test
@@ -35,4 +36,6 @@ public class FactorialsTest {
         assertEquals(3628800,obj.longFactorial(10));
         assertEquals(362880,obj.longFactorial(9));
     }
+
 }
+
